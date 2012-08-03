@@ -1,0 +1,33 @@
+
+.shareicons {
+	width: 100%;
+	margin: 10px 0 10px;
+	float: left;
+}
+.shareicons ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.shareicons ul li {
+	list-style-type: none;
+	margin: 0 0 5px 0;
+	padding: 0;
+	float: left;
+	/*display: inline-block;*/
+}
+
+	.shareicons ul li.twitter {
+		width: 107px;
+	}
+	
+	.shareicons ul li.linkedin {
+		width: 115px;
+	}
+	.shareicons ul li.googleplus {
+		width: 90px;
+	}
+	.shareicons ul li.facebook {
+		width: 150px;
+		height: 29px;
+	}

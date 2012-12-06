@@ -7,7 +7,7 @@ class ShareSiteConfig extends DataExtension {
 	);
 	
 	public function updateCMSFields(FieldList $fields) {
-		//$fields->addFieldToTab('Root.Facebook', new TextField('FacebookApp', 'Facebook AppID'));
+		$fields->addFieldToTab('Root.Social', new TextField('FacebookApp', 'Facebook AppID'));
 	}
 	
 }

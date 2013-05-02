@@ -82,6 +82,8 @@ JS
 		// generate share icons html, return to template
 		$page_url = Director::absoluteBaseURL() . Controller::curr()->Link();
 		
+		//$page_url = $this->owner->getCurrentItem()->absoluteLink();
+		
 		$html = '<div class="shareicons clearfix">
 			<ul>
 				<li class="twitter">
@@ -96,7 +98,7 @@ JS
 					<div class="g-plusone" data-size="medium"></div>
 				</li>
 				<li class="facebook">
-					<div class="fb-like" data-href="' . $page_url . '" data-send="false" data-layout="button_count" data-width="150" data-show-faces="false" data-action="recommend"></div>
+					<div class="fb-like" data-href="http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] . '" data-send="false" data-layout="button_count" data-width="150" data-show-faces="false" data-action="recommend"></div>
 				</li>
 			</ul>
 		</div>';

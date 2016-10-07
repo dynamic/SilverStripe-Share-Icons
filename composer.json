@@ -1,0 +1,16 @@
+{
+    "name": "dynamic/silverstripe-share-icons",
+    "description": "Various social aggregating icons for Pages in SilverStripe",
+    "keywords": ["silverstripe", "share", "module", "social"],
+    "license": "BSD-3-Clause",
+    "type": "silverstripe-module",
+    "require": {
+    	"silverstripe/framework": ">=3.0"
+    },   
+    "authors": [
+        {
+            "name": "Dynamic Inc",
+            "homepage": "http://dynamicagency.com"
+        }
+    ],
+}
